@@ -8,20 +8,20 @@ class line extends draws{
     }
 }
 
-class circle extends draw{
-    public void drawings(){
+class circle extends draws{
+    public void drawing(){
         System.out.println("drawing circle");
     }
 }
 
 class testing{
-    public static void main(String x[]){
+    public static void main(String xyz[]){
         line x= new line();
         letsdraw(x);
         circle c=new circle();
         letsdraw(c);
     }
-    public static void letsdraw(draw d){
+    public static void letsdraw(draws d){
         d.drawing();
     }
 }
