@@ -23,7 +23,7 @@ class college{
             System.out.println("total = "+ total);
             System.out.println("percentage = "+per);
         }
-    }
+    }   
 }
 class test3{
     public static void main(string xyz[]){;

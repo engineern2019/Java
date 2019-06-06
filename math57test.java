@@ -15,7 +15,9 @@ class math57test{
     public static void main(String XYZ[]){
         math57 x=new math57();
         math57 y=new math57();
+        x.A=29;
         y.A=17;
         x.message();
+        y.message2();
     }
 }
