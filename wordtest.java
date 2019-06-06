@@ -1,18 +1,21 @@
 class StringProcessing{
-    public void wordcount(String msg){        
-            if(N1.equals("")){
-                System.out.println("0");
+    public void wordcount(String msg){
+        int word=1;
+        int i=0;
+        while(i<msg.length()){
+            if (msg.substring(i,i+1).equals(" ")){
+                word++;
             }
-            if(N2.length("Manchester")){
-                System.out.println("")
-            }
+            i++;
+        }
+        System.out.println(word);       
     }
 }
 
 class wordtest{
-    public static void main(string xyz[]){;
-    college abc;
+    public static void main(String xyz[]){;
+        StringProcessing  abc;
     abc= new StringProcessing();
-
+    abc.wordcount("hello y friend");
     }
 }
