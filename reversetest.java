@@ -5,6 +5,9 @@ class backwards{
         while(i>msg.length()){
             if (msg.substring(i,i+1).equals(" ")){
             }
+            else{
+                
+            }
             i--;
         }
         System.out.println(msg);       
