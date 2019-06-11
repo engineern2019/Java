@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Windows7",
+            "request": "launch",
+            "mainClass": "Windows7"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - exceptionh",
             "request": "launch",
             "mainClass": "exceptionh"

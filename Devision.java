@@ -1,5 +1,5 @@
 class Devision{
-    public static void main(String data[]){
+    public static void main(Sring data[]){
         int fst,scn,rsl;
         fst=scn=rsl=0;
         try{
@@ -15,7 +15,7 @@ class Devision{
             System.out.println("More Values");
         }
         catch(ArithmeticException u3){
-            System.out.println("No -0-'s Please'");
+            System.out.println("No -0-'s '");
         }
     }
 }
